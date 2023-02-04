@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "turkey",
+  "version": "1.0",
+  "name": "Turkey",
+  "description": "Turkey",
+  "authors": [
+    "Moaswies"
+  ],
+  "contact": {},
+  "license": "GPLv3",
+  "icon": "Turkey.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "turkey.ClientMain"
+    ],
+    "main": [
+      "turkey.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": ">=1.18.2",
+    "java": ">=17"
+  }
+}
+     
