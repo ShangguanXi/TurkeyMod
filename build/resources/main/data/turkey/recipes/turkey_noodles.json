@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "turkey:turkey_meat_raw"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "turkey:turkey_egg"
+    }
+  ],
+  "result": {
+    "item": "turkey:turkey_noodles"
+  }
+}

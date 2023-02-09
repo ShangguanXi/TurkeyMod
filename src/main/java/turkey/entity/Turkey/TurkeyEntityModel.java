@@ -1,4 +1,4 @@
-package turkey.entity;
+package turkey.entity.Turkey;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.client.model.*;

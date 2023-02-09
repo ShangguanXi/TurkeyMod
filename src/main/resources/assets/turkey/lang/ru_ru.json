@@ -1,6 +1,10 @@
 {
 "entity.turkey.turkey":"Турция",
+  "entity.turkey.turkey_egg_entity":"яйца индейки",
 "item.turkey.turkey_spawn_egg":"нерест Турция",
 "item.turkey.turkey_meat_raw":"сырая индейка",
-"item.turkey.turkey_meat_cooked":"приготовленная индейка"
+"item.turkey.turkey_meat_cooked":"приготовленная индейка",
+  "item.turkey.turkey_egg":"яйца индейки",
+  "item.turkey.turkey_noodles":"лапша из индейки",
+  "item.turkey.turkey_noodles.tooltip":"сила индейки"
 }

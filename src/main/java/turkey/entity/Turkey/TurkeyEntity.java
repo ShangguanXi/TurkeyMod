@@ -1,7 +1,5 @@
-package turkey.entity;
+package turkey.entity.Turkey;
 
-import net.fabricmc.fabric.api.biome.v1.BiomeModification;
-import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.goal.*;
@@ -11,7 +9,6 @@ import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.passive.AnimalEntity;
-import net.minecraft.entity.passive.ChickenEntity;
 import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
@@ -41,7 +38,7 @@ public class TurkeyEntity extends AnimalEntity {
 
     public TurkeyEntity(EntityType entityType, World world) {
         super(entityType, world);
-        this.eggLayTime = this.random.nextInt(6000) + 6000;
+        this.eggLayTime = this.random.nextInt(5000) + 5000;
         this.setPathfindingPenalty(PathNodeType.WATER, 0.0F);
     }
 
@@ -62,7 +59,8 @@ public class TurkeyEntity extends AnimalEntity {
     }
 
     public static DefaultAttributeContainer.Builder createTurkeyAttributes() {
-        return MobEntity.createMobAttributes().add(EntityAttributes.GENERIC_MAX_HEALTH, 10.0).add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.28);
+        return MobEntity.createMobAttributes().add(EntityAttributes.GENERIC_MAX_HEALTH, 10.0)
+                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.28);
     }
 
     public void tickMovement() {
@@ -84,8 +82,8 @@ public class TurkeyEntity extends AnimalEntity {
         this.flapProgress += this.flapSpeed * 2.0F;
         if (!this.world.isClient && this.isAlive() && !this.isBaby() && !this.hasJockey() && --this.eggLayTime <= 0) {
             this.playSound(SoundEvents.ENTITY_CHICKEN_EGG, 1.0F, (this.random.nextFloat() - this.random.nextFloat()) * 0.2F + 1.0F);
-            this.dropItem(Items.EGG);
-            this.eggLayTime = this.random.nextInt(6000) + 6000;
+            this.dropItem(Main.turkey_egg);
+            this.eggLayTime = this.random.nextInt(5000) + 5000;
         }
 
     }

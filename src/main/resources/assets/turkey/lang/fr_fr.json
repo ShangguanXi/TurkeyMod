@@ -1,6 +1,10 @@
 {
 "entity.turkey.turkey":"Turquie",
+  "entity.turkey.turkey_egg_entity":"oeufs de dinde",
 "item.turkey.turkey_spawn_egg":"Frayer Turquie",
 "item.turkey.turkey_meat_raw":"Dinde Crue",
-"item.turkey.turkey_meat_cooked":"Dinde Cuite"
+"item.turkey.turkey_meat_cooked":"Dinde Cuite",
+  "item.turkey.turkey_egg":"oeufs de dinde",
+  "item.turkey.turkey_noodles":"nouilles à la dinde",
+  "item.turkey.turkey_noodles.tooltip":"pouvoir de la dinde"
 }

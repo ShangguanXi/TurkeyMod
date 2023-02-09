@@ -1,6 +1,10 @@
 {
 "entity.turkey.turkey":"七面鳥",
+  "entity.turkey.turkey_egg_entity":"七面鳥の卵",
 "item.turkey.turkey_spawn_egg":"七面鳥を産卵",
 "item.turkey.turkey_meat_raw":"生七面鳥",
-"item.turkey.turkey_meat_cooked":"調理された七面鳥"
+"item.turkey.turkey_meat_cooked":"調理された七面鳥",
+  "item.turkey.turkey_egg":"七面鳥の卵",
+  "item.turkey.turkey_noodles":"七面鳥の麺",
+  "item.turkey.turkey_noodles.tooltip":"七面鳥の力"
 }

@@ -1,6 +1,10 @@
 {
 "entity.turkey.turkey":"Turkey",
+  "entity.turkey.turkey_egg_entity":"Turkey Eggs",
 "item.turkey.turkey_spawn_egg":"Spawn Turkey",
 "item.turkey.turkey_meat_raw":"Raw Turkey",
-"item.turkey.turkey_meat_cooked":"Cooked Turkey"
+"item.turkey.turkey_meat_cooked":"Cooked Turkey",
+  "item.turkey.turkey_egg":"Turkey Eggs",
+  "item.turkey.turkey_noodles":"Turkey Noodles",
+  "item.turkey.turkey_noodles.tooltip":"Strength comes from turkey"
 }

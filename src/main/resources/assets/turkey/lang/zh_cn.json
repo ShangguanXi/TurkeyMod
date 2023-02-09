@@ -1,6 +1,10 @@
 {
 "entity.turkey.turkey":"火鸡",
+"entity.turkey.turkey_egg_entity":"火鸡蛋",
 "item.turkey.turkey_spawn_egg":"火鸡 刷怪蛋",
 "item.turkey.turkey_meat_raw":"生火鸡肉",
-"item.turkey.turkey_meat_cooked":"熟火鸡肉"
+"item.turkey.turkey_meat_cooked":"熟火鸡肉",
+"item.turkey.turkey_egg":"火鸡蛋",
+"item.turkey.turkey_noodles":"火鸡面",
+"item.turkey.turkey_noodles.tooltip":"来自火鸡全家的祝福"
 }

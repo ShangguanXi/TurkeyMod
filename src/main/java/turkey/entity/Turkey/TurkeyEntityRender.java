@@ -1,11 +1,12 @@
-package turkey.entity;
+package turkey.entity.Turkey;
 
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.MobEntityRenderer;
-import net.minecraft.entity.passive.ChickenEntity;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 import turkey.ClientMain;
+import turkey.entity.Turkey.TurkeyEntity;
+import turkey.entity.Turkey.TurkeyEntityModel;
 
 public class TurkeyEntityRender extends MobEntityRenderer<TurkeyEntity, TurkeyEntityModel<TurkeyEntity>> {
     public TurkeyEntityRender(EntityRendererFactory.Context context) {
